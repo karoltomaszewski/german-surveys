@@ -1,0 +1,181 @@
+body {
+  padding-bottom: 30px;
+}
+
+path {
+  fill: #2f3542;
+  cursor: pointer;
+}
+
+path:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.progress {
+  margin: 5px 0px;
+  height: 32px !important;
+  font-size: 14px !important;
+}
+
+.progress-bar[name="Grüne"] {
+  background: green !important;
+}
+
+.progress-bar[name="CDU/CSU"],
+.progress-bar[name="CDU"],
+.progress-bar[name="CSU"] {
+  background: black !important;
+}
+
+.progress-bar[name="SPD"] {
+  background: red !important;
+}
+
+.progress-bar[name="AfD"] {
+  background: blue !important;
+}
+
+.progress-bar[name="Linke"] {
+  background: #ff00ff !important;
+}
+
+.progress-bar[name="FDP"] {
+  background: yellow !important;
+  color: black;
+}
+
+.progress-bar[name="BP"] {
+  background: #98f5ff !important;
+  color: black;
+}
+
+.progress-bar[name="Freie Wähler"],
+.progress-bar[name="BVB/FW"] {
+  background: #ff8000 !important;
+}
+
+.progress-bar[name="Piraten"] {
+  background: orange !important;
+}
+
+.progress-bar[name="SSW"] {
+  background: #003c8f !important;
+}
+
+.progress-bar[name="Die PARTEI"] {
+  background: #b5152b !important;
+}
+
+.progress-bar[name="NPD"] {
+  background: red !important;
+}
+
+.progress-bar[name="Inne"] {
+  background: gray !important;
+}
+
+.row.filters {
+  background: rgba(47, 53, 66, 0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 15px 0px;
+  font-size: 18px;
+  color: white;
+}
+
+input[name="region"] {
+  display: none;
+}
+
+.btn-filter {
+  background: #1e90ff !important;
+  margin-top: 3px;
+  color: white !important;
+}
+
+.left {
+  margin-bottom: 15px;
+}
+
+.right {
+  padding-top: 20px;
+  min-height: 500px;
+}
+
+.right a {
+  position: relative;
+  top: -20px;
+}
+
+.warning {
+  display: inline-block;
+  background: #2f3542;
+  width: 20px;
+  height: 20px;
+  color: white;
+  position: relative;
+  left: 5px;
+  top: 1px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+svg {
+  min-height: 700px;
+}
+
+.about {
+  padding: 5px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.btn-group {
+  display: block;
+  width: 100%;
+}
+
+.btn-group a {
+  width: 50%;
+  position: relative;
+  top: -5px;
+}
+
+.btn-group button {
+  box-sizing: border-box;
+  background: #2f3542 !important;
+  color: white;
+  width: 99%;
+}
+
+.btn-group button:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.info_avg {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  svg {
+    min-height: 600px !important;
+  }
+}
+@media (max-width: 400px) {
+  svg {
+    min-height: 400px !important;
+  }
+}
