@@ -7,5 +7,5 @@ Strona internetowa, na której można zobaczyć wyniki ostatnich sondaży poparc
 ## Szczegółowe informacje
 Zasada działania oraz źródło mapy i danych opisane są na stronie: http://niemieckiesondaze.000webhostapp.com/about.php
 
-## Grafika poglądowa
+## Grafika podglądowa
 ![Screenshot](./podglad.png)
